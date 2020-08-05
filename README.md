@@ -23,7 +23,7 @@ You can also call the script from anywhere
 If you want to only download a file that someone shared to you and you have the handle (the XXXXX long code of `https://opacity.io/share#handle=XXXXX`):
 - Run `opacity-cli.sh`
 - Press enter
-- download the file with `download XXXXX "destination/folder/"` (to download in the current folder `download XXXXX "."`
+- download the file with `download XXXXX "destination/folder/"` (to download in the current folder `download XXXXX "."`)
 - type `exit` when done
 
 If you want to upload, delete, move a file:
@@ -31,7 +31,7 @@ If you want to upload, delete, move a file:
 - Insert your opacity account handle (create an account here https://www.opacity.io/sign-up)
 - type `help` to see the available commands
 - To create a folder type `createFolder "/New"` To create a folder inside 'New' type `createFolder "/New/Subfolder"`
-- To upload a file/folder in root directory 'upload "sourcefile" "/"`. To upload to another already existent folder 'upload "sourcefile" "/New"`. Use absoute or relative paths (~ is not supported, and DON'T try to upload current folder with "."). To upload a folder use for example `upload "/home/user/folder" "/"` or `upload "../folder" "/"`
+- To upload a file/folder in root directory `upload "sourcefile" "/"`. To upload to another already existent folder `upload "sourcefile" "/New"`. Use absoute or relative paths (~ is not supported, and DON'T try to upload current folder with "."). To upload a folder use for example `upload "/home/user/folder" "/"` or `upload "../folder" "/"`
 - To move and delete you need also the file/folder handle. Please move and/or delete files using the opacity web client or another working client
 - To share a file and obtain its handle you have to use the opacity website or another client
 
